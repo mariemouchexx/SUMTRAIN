@@ -1,0 +1,67 @@
+*{ margin: 0%; }
+:root{
+    --success: #1fdf64;
+    --success-hover: #16a54b;
+    --component-background: #f0f2f5;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar li{
+    list-style-type: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover{
+    color: yellow;
+    transition: 0.5s;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+    overflow-y: auto;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+.form-container{
+    margin: 2em;
+}
+.form-body{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: var(--component-background);
+    max-width: fit-content;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px var(--component-background);
+}
+.form-item{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.form-item label{
+    font-size: small;
+}
+.form-item input{
+    padding: 5px;
+}
+.form-item button{
+    border: none;
+    padding: 10px;
+    background-color: var(--success);
+    color: white;
+    border-radius: 3px;
+}
+.form-item button:hover{
+    background-color: var(--success-hover);
+}
