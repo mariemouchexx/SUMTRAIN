@@ -1,0 +1,29 @@
+:root{
+    --text-color: #505050;
+    --heading-color: rgb(54, 44, 44);
+}
+.article{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3em;
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    color: var(--text-color);
+}
+.section p{
+    line-height: 30px;
+}
+.section-item{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 1em 0em;
+}
+.section-item h4{
+    color: var(--heading-color);
+}
+.lists{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
