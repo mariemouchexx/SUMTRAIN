@@ -24,7 +24,7 @@
         <ul>
             <li> <a href="index.php">Home</a> </li>
             <li> <a href="#">About Us</a> </li>
-            <li> <a href="#">Contact Us</a> </li>
+            <li> <a href="php/contact.php">Contact Us</a> </li>
             <?php
                if($_SESSION["loggedIn"] == true){
                 echo("<li> <a href=\"php/logout.php\">Logout &nbsp <small>({$_SESSION['username']})</small></a> </li>");
